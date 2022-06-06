@@ -4,4 +4,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/IncomeProductService
+      uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/ClientService
