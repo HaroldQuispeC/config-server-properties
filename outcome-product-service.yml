@@ -4,3 +4,7 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/OutcomeProductService
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
