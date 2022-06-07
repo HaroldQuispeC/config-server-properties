@@ -1,2 +1,6 @@
 server:
     port: 8081
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/ClientService
