@@ -4,9 +4,6 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/OutcomeProductService
-application:
-  clients:
-    url: http://localhost:8081/api/client
     
 eureka:
   client:
