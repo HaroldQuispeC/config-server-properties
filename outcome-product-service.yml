@@ -10,7 +10,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
-Feing:
+feing:
   hystrix:
     enabled: true
 management:
