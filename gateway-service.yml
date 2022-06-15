@@ -14,15 +14,15 @@ spring:
           enabled: true
       routes:
         - id: client-service
-          uri: lb://customer-service
+          uri: lb://client-service
           predicates:
             - Path=/api/client/**
-        - id: income-service
-          uri: lb://income-service
+        - id: income-product-service
+          uri: lb://income-product-service
           predicates:
             - Path=/api/incomes/**
-        - id: outcome-service
-          uri: lb://outcome-service
+        - id: outcome-product-service
+          uri: lb://outcome-product-service
           predicates:
             - Path=/api/outcomes/**
         - id: transaction-service
