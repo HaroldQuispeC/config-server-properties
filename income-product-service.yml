@@ -1,5 +1,7 @@
 server:
     port: 8082
+    servlet:
+    contextPath: /api/incomes
 spring:
   application:
     name: income-product-service

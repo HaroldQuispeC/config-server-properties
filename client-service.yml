@@ -1,7 +1,5 @@
 server:
     port: 8081
-    servlet:
-    contextPath: /api/client
 spring:
   application:
     name: client-service
