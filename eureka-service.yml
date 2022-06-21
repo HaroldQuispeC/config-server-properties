@@ -1,8 +1,5 @@
 server:
   port: 8099
-spring:
-  application:
-    name: income-product-service
 eureka:
   instance:
     hostname: localhost

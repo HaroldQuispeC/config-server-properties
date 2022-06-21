@@ -1,10 +1,8 @@
 server:
     port: 8082
 spring:
-  cloud:
-    loadbalancer:
-      ribbon:
-        enable: false
+  application:
+    name: income-product-service
   data:
     mongodb:
       uri: mongodb+srv://banksystem-user001:mabU9mcbaKgUSFjf@cluster0.khamd.mongodb.net/IncomeProductService
